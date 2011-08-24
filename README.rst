@@ -14,7 +14,11 @@ and JSONResponse + ajax_request decorator from django-annoying https://bitbucket
 Installation
 ------------
 To install simply use:
-pip install django-jsonify
+
+::
+
+    pip install django-jsonify
+
 
 Usage
 -----
