@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.core.serializers.json import DjangoJSONEncoder
+from django.utils import simplejson
 
 try:
     from functools import wraps
