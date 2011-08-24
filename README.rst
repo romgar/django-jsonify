@@ -13,11 +13,13 @@ Donors
 
 Installation
 ------------
-To install simply use:
+To install you can use pip:
 
 ::
 
     pip install django-jsonify
+
+Then add `jsonify` to django settings.INSTALLED_APPS
 
 
 Usage
