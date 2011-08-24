@@ -15,6 +15,9 @@ Usage
 -----
 Django template:
 
+
+.. sourcecode:: python
+
     {% load jsonify %}
     
     {% block content %} <script type="text/javascript">
