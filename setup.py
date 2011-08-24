@@ -14,4 +14,5 @@ setup(name='django-jsonify',
       license='BSD License',
       keywords='json django jsonify',
       packages=['jsonify'],
+      install_requires=['django'],
       classifiers=[])
