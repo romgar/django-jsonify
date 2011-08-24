@@ -31,6 +31,7 @@ If you want to convert varianble in django template, you can use jsonify filter:
 If you want to return JSON data from view, you can use @ajax_request decorator
 
 ::
+
     from jsonify.decorators import ajax_request
 
     @ajax_request
