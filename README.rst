@@ -16,7 +16,7 @@ Usage
 Django template:
 
 
-.. sourcecode:: python
+::
 
     {% load jsonify %}
     
