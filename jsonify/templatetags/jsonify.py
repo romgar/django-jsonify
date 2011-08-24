@@ -5,7 +5,7 @@ from django.template import Library
 
 register = Library()
 
-def jsonify(object):
+def jsonify(obj):
     if isinstance(obj, QuerySet):
         return serialize('json', obj)
     return simplejson.dumps(obj)
