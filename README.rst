@@ -7,7 +7,7 @@ Abstract
 jsonify filter for Django based on http://djangosnippets.org/snippets/201/
 
 Installation
---------
+------------
 To install simply use:
 pip install django-jsonify
 
