@@ -5,7 +5,7 @@ long_desc = fhandler.read()
 fhandler.close()
 
 setup(name='django-jsonify',
-      packages=['jsonify'],
+      packages=['jsonify', 'jsonify.templatetags'],
       version='0.2',
       description="Django additions for JSON",
       long_description=long_desc,
