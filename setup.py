@@ -6,7 +6,7 @@ fhandler.close()
 
 setup(name='django-jsonify',
       packages=['jsonify', 'jsonify.templatetags'],
-      version='0.2.1',
+      version='0.3.0',
       description="Django additions for JSON",
       long_description=long_desc,
       author='Marius Grigaitis',
