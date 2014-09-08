@@ -11,5 +11,5 @@ class JsonifyTemplateTagsTestCase(TestCase):
         context = Context({
             'the_object': the_object
         })
-        self.assertEqual(template.render(context), 'no')
+        self.assertEqual(template.render(context), u'{"key": "value"}')
 
