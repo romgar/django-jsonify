@@ -1,6 +1,9 @@
 from django.http import HttpResponse
 from django.core.serializers.json import DjangoJSONEncoder
-from django.utils import simplejson
+try:
+    import json
+except ImportError:
+    from django.utils import simplejson as json
 
 try:
     from functools import wraps
@@ -20,7 +23,7 @@ class JsonResponse(HttpResponse):
     HttpResponse descendant, which return response with ``application/json`` mimetype.
     """
     def __init__(self, data):
-        super(JsonResponse, self).__init__(content=simplejson.dumps(data, cls=DjangoJSONEncoder), mimetype='application/json')
+        super(JsonResponse, self).__init__(content=json.dumps(data, cls=DjangoJSONEncoder), mimetype='application/json')
 
 
 
