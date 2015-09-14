@@ -1,4 +1,4 @@
 include setup.py
 include README.rst
 include LICENCE.txt
-recursive-include jsonify *.py
+recursive-include djsonify *.py
