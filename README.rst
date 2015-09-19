@@ -1,6 +1,8 @@
 ==============
 django-jsonify
 ==============
+.. image:: https://travis-ci.org/romgar/django-jsonify.svg?branch=develop
+    :target: https://travis-ci.org/romgar/django-jsonify?branch=develop
 
 Abstract
 --------
